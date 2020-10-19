@@ -40,7 +40,7 @@ for j in tqdm([1,2,5,10,20,30,50]): #determine the nums of epoch to use
     e_trues = []
     e_before_r = []
     
-    for i in tqdm([0], ascii=True): 
+    for i in tqdm([0], ascii=True): #list裡面放要使用的資料及參數的號碼
         
         
         #loading data & get params

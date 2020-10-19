@@ -19,7 +19,7 @@ except FileExistsError:
 
 
 
-for i in tqdm([1]):
+for i in tqdm([0]): #list裡面放要命名的資料及參數的號碼
     
     np.random.seed(2020)
     
